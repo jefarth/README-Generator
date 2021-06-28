@@ -6,6 +6,9 @@ This is a command-line application that generates a professional README.md from 
 
 This README.md was created from the use of the application itself.
 
+## Preview
+[Video Preview](https://drive.google.com/file/d/1o-sRae8cG-PhPY9mXVTjLawrkEruFLyB/view)
+
 ## Table of Contents 
 
 * [Installation](#installation)
