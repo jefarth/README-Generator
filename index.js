@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-// const generator = require(`./utils/generateMarkdown`)
+const generator = require(`./utils/generateMarkdown`)
 const inquirer = require(`inquirer`);
 const fs = require('fs');
 
@@ -8,27 +8,27 @@ const questions = [
     {
         type: 'input',
         name: 'Title',
-        message: 'What is the title of your project?',
+        message: "What is the title of your project?",
     },
     {
         type: 'input',
         name: 'Description',
-        message: 'What is the purpose of your project?',
+        message: "What is the purpose of your project?",
     },
     {
         type: 'input',
         name: 'Installation',
-        message: 'What are the steps to install your project?',
+        message: "What are the steps to install your project?",
     },
     {
         type: 'input',
         name: 'Usage',
-        message: 'How to use your project?',
+        message: "How to use your project?",
     },
     {
         type: 'list',
-        name: 'Licenses',
-        message: 'What licenses do you have on your project?',
+        name: 'License',
+        message: "What license's do you have on your project?",
         choices: [
             'None',
             'Apache License 2.0',
@@ -36,7 +36,28 @@ const questions = [
             'MIT License',
             'BSD 2-Clause Simplified License',
             'BSD 3-Clause New or Revised License',
-            'Boost Software License 1.0',],
+            'Boost Software License 1.0',
+        ],
+    },
+    {
+        type: `input`,
+        message: "Please advise any contributions you have made:",
+        name: `Contributing`,
+    },
+    {
+        type: `input`,
+        message: "Please advise your test opporation performed for your project:",
+        name: `Test`,
+    },
+    {
+        type: `input`,
+        message: "What is your GitHub username?",
+        name: `UserName`,
+    },
+    {
+        type: `input`,
+        message: "What is your email address?",
+        name: `Email`,
     },
 ];
 
@@ -54,7 +75,10 @@ fs.writeFile("./"+fileName, data, function(err) {
 
 // TODO: Create a function to initialize app
 function init() {
-   inquirer.prompt(questions);
+   inquirer.prompt(questions)
+   .then(function(data) {
+       writeToFile("README.md", generator(data));
+   });
 }
 
 // Function call to initialize app
