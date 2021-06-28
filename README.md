@@ -4,6 +4,8 @@
   ## Description
 This is a command-line application that generates a professional README.md from user input, using the npm Inquirer package. The user purpose driven application will allow a user to quickly and easily generate a new README.md for any project using the same framework.
 
+This README.md was created from the use of the application itself.
+
 ## Table of Contents 
 
 * [Installation](#installation)
