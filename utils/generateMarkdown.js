@@ -19,7 +19,7 @@ ${data.Description}
 The following necessary dependencies must be installed to run the application properly: ${data.Installation}
 
 ## Usage
-How to use this application. ${data.Usage}
+To use this application: ${data.Usage}
 
 ## License
 This project is licensed under the ${data.License}.
