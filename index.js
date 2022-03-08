@@ -46,7 +46,7 @@ const questions = [
     },
     {
         type: `input`,
-        message: "Please advise your test opporation performed for your project:",
+        message: "Please advise your test operation performed for your project:",
         name: `Test`,
     },
     {
