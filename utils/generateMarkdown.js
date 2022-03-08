@@ -11,7 +11,7 @@ ${data.Description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contributions](#contributions)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -24,8 +24,8 @@ To use this application: ${data.Usage}
 ## License
 This project is licensed under the ${data.License}.
 
-## Contributing
-Contributing: ${data.Contributing}
+## Contributions
+Contributions: ${data.Contributions}
 
 ## Tests
 To run tests, you need to run the following command: ${data.Test}
