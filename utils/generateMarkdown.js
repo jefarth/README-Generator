@@ -22,13 +22,13 @@ Follow these steps to install the application: ${data.Installation}
 To use this application: ${data.Usage}
 
 ## License
-This project is licensed under ${data.License}.
+This project is licensed under: ${data.License}.
 
 ## Contributions
 Contributions made by: ${data.Contributions}
 
 ## Tests
-To run tests, you need to run the following command: ${data.Test}
+Testing on this application was performed by: ${data.Test}
 
 ## Questions
 If you have any questions about the repo, please contact "${data.UserName}" directly at ${data.Email}.
