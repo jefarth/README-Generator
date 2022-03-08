@@ -16,7 +16,7 @@ ${data.Description}
 * [Questions](#questions)
 
 ## Installation
-The following necessary dependencies must be installed to run the application properly: ${data.Installation}
+Follow these steps to install the application: ${data.Installation}
 
 ## Usage
 To use this application: ${data.Usage}
