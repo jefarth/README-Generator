@@ -31,7 +31,7 @@ Contributions made by: ${data.Contributions}
 Testing on this application was performed by: ${data.Test}
 
 ## Questions
-If you have any questions about the repo, please contact "${data.UserName}" directly at ${data.Email}.
+If you have any questions about the application, please contact "${data.UserName}" directly at ${data.Email}.
 
 `;
 }
