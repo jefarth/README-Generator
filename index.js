@@ -41,8 +41,8 @@ const questions = [
     },
     {
         type: `input`,
-        message: "Please advise any contributions you have made:",
-        name: `Contributing`,
+        message: "Please advise any contributions made:",
+        name: `Contributions`,
     },
     {
         type: `input`,
