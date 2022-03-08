@@ -22,7 +22,7 @@ Follow these steps to install the application: ${data.Installation}
 To use this application: ${data.Usage}
 
 ## License
-This project is licensed under the ${data.License}.
+This project is licensed under ${data.License}.
 
 ## Contributions
 Contributions: ${data.Contributions}
