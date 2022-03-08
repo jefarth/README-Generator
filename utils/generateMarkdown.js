@@ -25,7 +25,7 @@ To use this application: ${data.Usage}
 This project is licensed under ${data.License}.
 
 ## Contributions
-Contributions: ${data.Contributions}
+Contributions made by: ${data.Contributions}
 
 ## Tests
 To run tests, you need to run the following command: ${data.Test}
