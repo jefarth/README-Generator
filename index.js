@@ -8,27 +8,27 @@ const questions = [
     {
         type: 'input',
         name: 'Title',
-        message: "What is the title of your project?",
+        message: "What is the title of the project?",
     },
     {
         type: 'input',
         name: 'Description',
-        message: "What is the purpose of your project?",
+        message: "What is the purpose of the project?",
     },
     {
         type: 'input',
         name: 'Installation',
-        message: "What are the steps to install your project?",
+        message: "What are the steps to install the project?",
     },
     {
         type: 'input',
         name: 'Usage',
-        message: "How to use your project?",
+        message: "How to use the project?",
     },
     {
         type: 'list',
         name: 'License',
-        message: "What license's do you have on your project?",
+        message: "What license's do you have on the project?",
         choices: [
             'None',
             'Apache License 2.0',
@@ -46,7 +46,7 @@ const questions = [
     },
     {
         type: `input`,
-        message: "Please advise your test operation performed for your project:",
+        message: "Please advise the test operation performed for the project:",
         name: `Test`,
     },
     {
