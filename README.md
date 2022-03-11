@@ -10,6 +10,7 @@
   [Video Preview](https://drive.google.com/file/d/1o-sRae8cG-PhPY9mXVTjLawrkEruFLyB/view)
 
   ![screenshot](./assets/pictures/screenshot1.png)
+  
 ## Table of Contents 
 
   * [Installation](#installation)
@@ -20,7 +21,7 @@
   * [Questions](#questions)
 
 ## Installation
-  Follow these steps to install the application: As a prerequisite, you must have node.js installed. First, fork the GitHub repository and copy it to your local machine. Open the code. From there, open your terminal and run a npm install within the code folder. It should install all required dependencies; check the package.json folder to make sure Inquirer was added.
+  Follow these steps to install the application: To install this project first create a new repository on your local machine. Navigate to GitHub and find the "Code" button. Click on it and select "SSH" within the drop down menu. Copy the SSH key. Open up a new terminal inside the new repository you created and write "git clone". Paste the SSH key in after and hit enter.
 
 ## Usage
   To use this application: Open the code. From there, open your terminal and run a npm install within the code folder. It should install all required dependencies; check the package.json folder to make sure Inquirer was added. Finally run -- node index.js -- to run the application.
