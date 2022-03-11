@@ -16,10 +16,10 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
   ## Installation
-  Follow these steps to install the application: ${data.Installation}
+  Follow these steps to install the application: To install this project first create a new repository on your local machine. Navigate to GitHub and find the "Code" button. Click on it and select "SSH" within the drop down menu. Copy the SSH key. Open up a new terminal inside the new repository you created and write "git clone". Paste the SSH key in after and hit enter.
 
   ## Usage
-  To use this application: ${data.Usage}
+  To use this application: This project can be found live here for use: . ${data.Usage}
 
   ## License
   This project is licensed under: ${data.License}.
